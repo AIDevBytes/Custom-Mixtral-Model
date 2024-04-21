@@ -1,5 +1,5 @@
 # set the base model 
-FROM llama3:8b
+FROM mixtral:8x7b
 
 # Set custom paramter values
 PARAMETER temperature 1
