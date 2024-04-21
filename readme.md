@@ -1,6 +1,6 @@
 # Custom Mixtral Model File
 
-This repo is a companion to the YouTube video titled: <a href="">Create your own CUSTOM Mixtral (Mixtral 8x7b) model using Ollama</a>. You can find the custom model file named "custom-llama3" to use as a starting pointing for creating your own custom Llama 3 model to be run with Ollama.
+This repo is a companion to the YouTube video titled: <a href="">Create your own CUSTOM Mixtral (Mixtral 8x7b) model using Ollama</a>. You can find the custom model file named "custom-mixtral" to use as a starting pointing for creating your own custom Mixtral 8x7b model to be run with Ollama.
 
 [Mixtral 8x7b model can be found here](https://ollama.com/library/mixtral)
 
