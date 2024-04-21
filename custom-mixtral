@@ -1,0 +1,14 @@
+# set the base model 
+FROM llama3:8b
+
+# Set custom paramter values
+PARAMETER temperature 1
+
+PARAMETER stop [INST]
+PARAMETER stop [/INST]
+
+# Set the model template
+TEMPLATE "[INST] {{ .System }} {{ .Prompt }} [/INST]"
+
+# Set the system message
+SYSTEM "You are a helpful AI assistant named Mixtral"
