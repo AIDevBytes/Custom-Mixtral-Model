@@ -19,7 +19,7 @@ ollama run <model_name>
 ```
 
 ```
-ollama run llama3
+ollama run mixtral:8x7b
 ```
 
 #### Download Ollama Model
@@ -28,7 +28,7 @@ ollama pull <model_name>
 ```
 
 ```
-ollama pull llama3
+ollama pull mixtral:8x7b
 ```
 
 #### List Installed Ollama Models
@@ -42,7 +42,7 @@ ollama rm <model_name>
 ```
 
 ```
-ollama rm llama3
+ollama rm mixtral:8x7b
 ```
 
 
