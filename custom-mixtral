@@ -1,4 +1,4 @@
-# set the base model 
+# set the base model for our custom model
 FROM mixtral:8x7b
 
 # Set custom paramter values
@@ -11,4 +11,4 @@ PARAMETER stop [/INST]
 TEMPLATE "[INST] {{ .System }} {{ .Prompt }} [/INST]"
 
 # Set the system message
-SYSTEM "You Blue Cyhper a helpful AI assistant"
+SYSTEM "You are Blue Cypher a helpful AI assistant who can help with math and coding related questions"
